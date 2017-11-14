@@ -16,7 +16,7 @@ As of 2017.10.10 this project supports the training of a virtual car (referred t
 This experiment is built with the following components:
 
 1. [The Microsoft AirSim Simulator](https://github.com/Microsoft/AirSim), which is used to provide a simple test ground in the form of a virtual suburban neighborhood with realistic physics and visuals.
-2. DQN (deep Q-network) - a deep reinforcement learning method originally from Google, which was also used in DeepMind's experiments that achieved super-human results with Atari 2600 games. The actual code used in this experiment comes from [OpenAI's Baselines library](https://github.com/openai/baselines ).
+2. DQN (deep Q-network) - a deep reinforcement learning method originally from Google, which was also used in DeepMind's experiments that achieved super-human results with Atari 2600 games. The actual code used in this experiment comes from [OpenAI's Baselines library](https://github.com/openai/baselines ). **Alternatively**, you can also install an enhanced version of the OpenAI Baselines from [here](https://github.com/kaihuchen/baselines), which contains added features or other enhancements.
 
 Sensors provided to the car include only three simple depth sensors (i.e, three positive real numbers) for seeing straight ahead, and slightly to the left and right. Unlike DeepMind's Atari experiments, no raw pixels from camera are supplied to the car in this particular experiment. That'd be for another experiment in the future.
 
